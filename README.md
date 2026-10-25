@@ -1,9 +1,5 @@
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v5-dark.webp"><img src="docs/readme/clips/hero-v5-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture></a>
-</p>
-
-<p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/address-dark.svg"><img src="docs/readme/address-light.svg" width="560" alt="Open drayzu.github.io/AstroIngenieria"></picture></a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/hero-v6-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v6-dark.webp"><source type="image/avif" srcset="docs/readme/clips/hero-v6-light.avif"><img src="docs/readme/clips/hero-v6-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture></a>
 </p>
 
 <p align="center">
@@ -43,7 +39,7 @@
 </p>
 
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/epilogue-enter2-dark.svg"><img src="docs/readme/epilogue-enter2-light.svg" width="100%" alt="Orbital museum. Enter. The sky was distance; then it became a destination; one day, it may be our creation."></picture></a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/address-dark.svg"><img src="docs/readme/address-light.svg" width="560" alt="Open drayzu.github.io/AstroIngenieria"></picture></a>
 </p>
 
 <br>
