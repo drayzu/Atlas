@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/header-arc-dark.svg"><img src="docs/readme/header-arc-light.svg" width="100%" alt="Astroingeniería — an orbital museum. The sky was distance; then it became a destination; one day, it may be our creation."></picture></a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/header-prologue-dark.svg"><img src="docs/readme/header-prologue-light.svg" width="100%" alt="Orbital museum. The sky was distance; then it became a destination; one day, it may be our creation."></picture></a>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v2-dark.webp"><img src="docs/readme/clips/hero-v2-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture>
 </p>
 
 <p align="center">
   <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/enter-dark.svg"><img src="docs/readme/enter-light.svg" width="600" alt="Enter the museum"></picture></a>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-dark.webp"><img src="docs/readme/clips/hero-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture>
 </p>
 
 <p align="center">
