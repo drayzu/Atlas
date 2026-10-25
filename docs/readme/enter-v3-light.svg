@@ -2,69 +2,69 @@
     <defs>
         <!-- Breathing nebulas (from pruebas.svg reference) -->
         <radialGradient id="neb-blue" cx="50%" cy="50%" r="50%">
-            <stop offset="0%"  stop-color="#27406e" stop-opacity="0.30">
-                <animate attributeName="stop-color" values="#27406e;#1e3f68;#27406e" dur="24s" repeatCount="indefinite"/>
+            <stop offset="0%"  stop-color="#a9bfe9" stop-opacity="0.30">
+                <animate attributeName="stop-color" values="#a9bfe9;#b0cdf1;#a9bfe9" dur="24s" repeatCount="indefinite"/>
             </stop>
-            <stop offset="55%" stop-color="#1b2c4e" stop-opacity="0.13"/>
-            <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+            <stop offset="55%" stop-color="#cbd8f2" stop-opacity="0.13"/>
+            <stop offset="100%" stop-color="#dde4ee" stop-opacity="0"/>
         </radialGradient>
         <radialGradient id="neb-warm" cx="50%" cy="50%" r="50%">
-            <stop offset="0%"  stop-color="#4a3a20" stop-opacity="0.24">
-                <animate attributeName="stop-color" values="#4a3a20;#58411c;#4a3a20" dur="28s" repeatCount="indefinite"/>
+            <stop offset="0%"  stop-color="#efe2ce" stop-opacity="0.24">
+                <animate attributeName="stop-color" values="#efe2ce;#f2dfc1;#efe2ce" dur="28s" repeatCount="indefinite"/>
             </stop>
-            <stop offset="55%" stop-color="#33281a" stop-opacity="0.11"/>
-            <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+            <stop offset="55%" stop-color="#f0e7db" stop-opacity="0.11"/>
+            <stop offset="100%" stop-color="#dde4ee" stop-opacity="0"/>
         </radialGradient>
 
         <!-- Gradients for the underline under ENTRAR -->
         <linearGradient id="fade-left" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#EADCB9" stop-opacity="0"/>
-            <stop offset="100%" stop-color="#EADCB9" stop-opacity="0.6"/>
+            <stop offset="0%" stop-color="#6e5516" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#6e5516" stop-opacity="0.6"/>
         </linearGradient>
         <linearGradient id="fade-right" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#EADCB9" stop-opacity="0.6"/>
-            <stop offset="100%" stop-color="#EADCB9" stop-opacity="0"/>
+            <stop offset="0%" stop-color="#6e5516" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#6e5516" stop-opacity="0"/>
         </linearGradient>
 
         <!-- Soft halo behind ENTRAR (subtle button affordance) -->
         <radialGradient id="entrar-halo" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#e3ccaa" stop-opacity="0.12"/>
-            <stop offset="60%" stop-color="#e3ccaa" stop-opacity="0.05"/>
-            <stop offset="100%" stop-color="#e3ccaa" stop-opacity="0"/>
+            <stop offset="0%" stop-color="#7d561c" stop-opacity="0.12"/>
+            <stop offset="60%" stop-color="#7d561c" stop-opacity="0.05"/>
+            <stop offset="100%" stop-color="#7d561c" stop-opacity="0"/>
         </radialGradient>
 
         <!-- Shooting star tail gradient -->
         <linearGradient id="shoot-tail" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
-            <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+            <stop offset="0%" stop-color="#1a1a1a" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#1a1a1a" stop-opacity="0"/>
         </linearGradient>
         <linearGradient id="shoot-tail-gold" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#ffe9b8" stop-opacity="1"/>
-            <stop offset="100%" stop-color="#ffe9b8" stop-opacity="0"/>
+            <stop offset="0%" stop-color="#704d00" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#704d00" stop-opacity="0"/>
         </linearGradient>
 
         <!-- Animated shine sweeping across the title -->
         <linearGradient id="title-shine" gradientUnits="userSpaceOnUse" x1="350" y1="0" x2="850" y2="0">
-            <stop offset="0" stop-color="#ecd9ae"/>
-            <stop offset="0.5" stop-color="#fff6df"/>
-            <stop offset="1" stop-color="#ecd9ae"/>
+            <stop offset="0" stop-color="#7d5c10"/>
+            <stop offset="0.5" stop-color="#493400"/>
+            <stop offset="1" stop-color="#7d5c10"/>
             <animateTransform attributeName="gradientTransform" attributeType="XML"
                 type="translate" values="-720 0; 720 0; 720 0" keyTimes="0; 0.4; 1" dur="11s" repeatCount="indefinite"/>
         </linearGradient>
 
         <linearGradient id="title-shine-2" gradientUnits="userSpaceOnUse" x1="420" y1="0" x2="780" y2="0">
-            <stop offset="0" stop-color="#ecd9ae"/>
-            <stop offset="0.5" stop-color="#fff6df"/>
-            <stop offset="1" stop-color="#ecd9ae"/>
+            <stop offset="0" stop-color="#7d5c10"/>
+            <stop offset="0.5" stop-color="#493400"/>
+            <stop offset="1" stop-color="#7d5c10"/>
             <animateTransform attributeName="gradientTransform" attributeType="XML"
                 type="translate" values="-380 0; 380 0; 380 0" keyTimes="0; 0.35; 1" dur="13s" begin="2.5s" repeatCount="indefinite"/>
         </linearGradient>
 
         <!-- Soft light beam that sweeps across the sky -->
         <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-            <stop offset="50%" stop-color="#ffffff" stop-opacity="0.055"/>
-            <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+            <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0"/>
+            <stop offset="50%" stop-color="#1a1a1a" stop-opacity="0.055"/>
+            <stop offset="100%" stop-color="#1a1a1a" stop-opacity="0"/>
         </linearGradient>
 
         <!-- Glow filter for premium stars -->
@@ -107,7 +107,7 @@
         .subtitle {
             font-family: 'Montserrat', 'Segoe UI', sans-serif;
             font-size: 13px;
-            fill: #b3b0aa;
+            fill: #6c675e;
             text-anchor: middle;
             letter-spacing: 0.9em;
             animation: breathe 8s ease-in-out infinite;
@@ -115,16 +115,16 @@
         .body-text {
             font-family: 'Cormorant Garamond', Georgia, serif;
             font-size: 26px;
-            fill: #c5bcae;
+            fill: #6c5e47;
             text-anchor: middle;
         }
-        .poem { font-size: 30px; font-style: italic; } .bold-text { font-weight: 600; fill: #e3ccaa; }
+        .poem { font-size: 30px; font-style: italic; } .bold-text { font-weight: 600; fill: #7d561c; }
 
         /* ===================== SPACE EFFECTS ===================== */
 
-        .star { fill: #ffffff; transform-box: fill-box; transform-origin: center; }
-        .star-gold { fill: #EADCB9; }
-        .star-blue { fill: #a5c8ff; }
+        .star { fill: #1a1a1a; transform-box: fill-box; transform-origin: center; }
+        .star-gold { fill: #6e5516; }
+        .star-blue { fill: #003383; }
 
         /* Depth-layered twinkling (negative delays = desynchronized start, slow pulses) */
         .t1 { animation: twinkle 4.5s ease-in-out infinite alternate -1.2s; }
@@ -363,14 +363,14 @@
         }
 
         /* Key words of the arc: distancia -> destino -> obra, warming up */
-        .kw1 { fill: #d6cbb4; }
-        .kw2 { fill: #e2d2ae; }
+        .kw1 { fill: #6b5932; }
+        .kw2 { fill: #785d1f; }
         .kw3 { fill: url(#title-shine-2); font-style: italic; }
 
         @media (prefers-reduced-motion: reduce) {
             * { animation: none !important; }
         }
-    </style><defs><linearGradient id="efh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000"/><stop offset="0.07" stop-color="#fff"/><stop offset="0.9299999999999999" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient><linearGradient id="efv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000"/><stop offset="0.42857142857142855" stop-color="#fff"/><stop offset="0.5714285714285714" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient><mask id="emh" maskUnits="userSpaceOnUse" x="0" y="778" width="1200" height="140"><rect x="0" y="778" width="1200" height="140" fill="url(#efh)"/></mask><mask id="emv" maskUnits="userSpaceOnUse" x="0" y="778" width="1200" height="140"><rect x="0" y="778" width="1200" height="140" fill="url(#efv)"/></mask></defs><g mask="url(#emh)"><g mask="url(#emv)">
+    </style><defs><linearGradient id="efh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000"/><stop offset="0.07" stop-color="#fff"/><stop offset="0.9299999999999999" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient><linearGradient id="efv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000"/><stop offset="0.15714285714285714" stop-color="#fff"/><stop offset="0.8428571428571429" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient><mask id="emh" maskUnits="userSpaceOnUse" x="0" y="778" width="1200" height="140"><rect x="0" y="778" width="1200" height="140" fill="url(#efh)"/></mask><mask id="emv" maskUnits="userSpaceOnUse" x="0" y="778" width="1200" height="140"><rect x="0" y="778" width="1200" height="140" fill="url(#efv)"/></mask></defs><g mask="url(#emh)"><g mask="url(#emv)">
 
     <!-- Breathing nebulas (atmospheric depth, from reference) -->
     <ellipse class="neb neb-a" cx="950" cy="230" rx="320" ry="190" fill="url(#neb-blue)"/>
@@ -385,7 +385,7 @@
     <!-- ==================== DEEP SPACE ATMOSPHERE ==================== -->
 
     <!-- Drifting stardust -->
-    <g class="dust" fill="#dbe6ff" opacity="0.35">
+    <g class="dust" fill="#00174d" opacity="0.35">
         <circle cx="120" cy="240" r="0.7"/>
         <circle cx="305" cy="165" r="0.8"/>
         <circle cx="545" cy="245" r="0.6"/>
@@ -404,7 +404,7 @@
     <!-- ==================== BACKGROUND SPACE ELEMENTS ==================== -->
 
     <!-- Constellation (disabled for now)
-    <g stroke="#EADCB9" fill="#EADCB9">
+    <g stroke="#6e5516" fill="#6e5516">
         <polyline class="constellation-line" points="120,160 190,120 260,170 330,130"
             fill="none" stroke-width="0.8" opacity="0.7"/>
         <circle class="constellation-dot cd1" cx="120" cy="160" r="2" filter="url(#glow)"/>
@@ -482,23 +482,23 @@
         <circle cx="135"  cy="300" r="1.8" class="star t5 star-gold" filter="url(#glow)"/>
         <circle cx="1090" cy="880" r="2"   class="star t6"           filter="url(#glow)"/>
 
-        <circle cx="85" cy="520" r="2" fill="none" stroke="#EADCB9" stroke-width="0.6" opacity="0">
+        <circle cx="85" cy="520" r="2" fill="none" stroke="#6e5516" stroke-width="0.6" opacity="0">
             <animate attributeName="r" values="2;13" dur="3.6s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values="0.5;0" dur="3.6s" repeatCount="indefinite"/>
         </circle>
-        <circle cx="1150" cy="650" r="2" fill="none" stroke="#a5c8ff" stroke-width="0.6" opacity="0">
+        <circle cx="1150" cy="650" r="2" fill="none" stroke="#003383" stroke-width="0.6" opacity="0">
             <animate attributeName="r" values="2;13" dur="3.6s" begin="0.8s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values="0.5;0" dur="3.6s" begin="0.8s" repeatCount="indefinite"/>
         </circle>
-        <circle cx="985" cy="120" r="2" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0">
+        <circle cx="985" cy="120" r="2" fill="none" stroke="#1a1a1a" stroke-width="0.6" opacity="0">
             <animate attributeName="r" values="2;13" dur="3.6s" begin="1.6s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values="0.5;0" dur="3.6s" begin="1.6s" repeatCount="indefinite"/>
         </circle>
-        <circle cx="135" cy="300" r="2" fill="none" stroke="#EADCB9" stroke-width="0.6" opacity="0">
+        <circle cx="135" cy="300" r="2" fill="none" stroke="#6e5516" stroke-width="0.6" opacity="0">
             <animate attributeName="r" values="2;13" dur="3.6s" begin="2.4s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values="0.5;0" dur="3.6s" begin="2.4s" repeatCount="indefinite"/>
         </circle>
-        <circle cx="1090" cy="880" r="2" fill="none" stroke="#ffffff" stroke-width="0.6" opacity="0">
+        <circle cx="1090" cy="880" r="2" fill="none" stroke="#1a1a1a" stroke-width="0.6" opacity="0">
             <animate attributeName="r" values="2;13" dur="3.6s" begin="3.2s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values="0.5;0" dur="3.6s" begin="3.2s" repeatCount="indefinite"/>
         </circle>
@@ -506,68 +506,68 @@
     </g>
 
     <!-- Four-point sparkle stars -->
-    <g class="drift-mid" fill="#ffffff">
+    <g class="drift-mid" fill="#1a1a1a">
         <g transform="translate(255,215)"><path class="sparkle sp1" d="M0,-6 L1.3,-1.3 L6,0 L1.3,1.3 L0,6 L-1.3,1.3 L-6,0 L-1.3,-1.3 Z"/></g>
-        <g transform="translate(735,205)"><path class="sparkle sp2" d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z" fill="#EADCB9"/></g>
+        <g transform="translate(735,205)"><path class="sparkle sp2" d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z" fill="#6e5516"/></g>
         <g transform="translate(1165,205)"><path class="sparkle sp3" d="M0,-7 L1.4,-1.4 L7,0 L1.4,1.4 L0,7 L-1.4,1.4 L-7,0 L-1.4,-1.4 Z"/></g>
-        <g transform="translate(45,330)"><path class="sparkle sp4" d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z" fill="#a5c8ff"/></g>
+        <g transform="translate(45,330)"><path class="sparkle sp4" d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z" fill="#003383"/></g>
         <g transform="translate(1180,560)"><path class="sparkle sp5" d="M0,-6 L1.3,-1.3 L6,0 L1.3,1.3 L0,6 L-1.3,1.3 L-6,0 L-1.3,-1.3 Z"/></g>
-        <g transform="translate(75,935)"><path class="sparkle sp6" d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z" fill="#EADCB9"/></g>
+        <g transform="translate(75,935)"><path class="sparkle sp6" d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z" fill="#6e5516"/></g>
         <g transform="translate(895,955)"><path class="sparkle sp7" d="M0,-6 L1.3,-1.3 L6,0 L1.3,1.3 L0,6 L-1.3,1.3 L-6,0 L-1.3,-1.3 Z"/></g>
     </g>
 
     <!-- Occasional sharp glints -->
-    <g fill="#ffffff">
+    <g fill="#1a1a1a">
         <g transform="translate(760,120)"><path class="flare f1" d="M0,-9 L1.8,-1.8 L9,0 L1.8,1.8 L0,9 L-1.8,1.8 L-9,0 L-1.8,-1.8 Z"/></g>
-        <g transform="translate(150,660)"><path class="flare f2" d="M0,-8 L1.6,-1.6 L8,0 L1.6,1.6 L0,8 L-1.6,1.6 L-8,0 L-1.6,-1.6 Z" fill="#ffe9b8"/></g>
-        <g transform="translate(1065,470)"><path class="flare f3" d="M0,-9 L1.8,-1.8 L9,0 L1.8,1.8 L0,9 L-1.8,1.8 L-9,0 L-1.8,-1.8 Z" fill="#cfe1ff"/></g>
-        <g transform="translate(330,880)"><path class="flare f4" d="M0,-7 L1.5,-1.5 L7,0 L1.5,1.5 L0,7 L-1.5,1.5 L-7,0 L-1.5,-1.5 Z" fill="#a5c8ff"/></g>
-        <g transform="translate(900,300)"><path class="flare f5" d="M0,-8 L1.6,-1.6 L8,0 L1.6,1.6 L0,8 L-1.6,1.6 L-8,0 L-1.6,-1.6 Z" fill="#ffffff"/></g>
+        <g transform="translate(150,660)"><path class="flare f2" d="M0,-8 L1.6,-1.6 L8,0 L1.6,1.6 L0,8 L-1.6,1.6 L-8,0 L-1.6,-1.6 Z" fill="#704d00"/></g>
+        <g transform="translate(1065,470)"><path class="flare f3" d="M0,-9 L1.8,-1.8 L9,0 L1.8,1.8 L0,9 L-1.8,1.8 L-9,0 L-1.8,-1.8 Z" fill="#002159"/></g>
+        <g transform="translate(330,880)"><path class="flare f4" d="M0,-7 L1.5,-1.5 L7,0 L1.5,1.5 L0,7 L-1.5,1.5 L-7,0 L-1.5,-1.5 Z" fill="#003383"/></g>
+        <g transform="translate(900,300)"><path class="flare f5" d="M0,-8 L1.6,-1.6 L8,0 L1.6,1.6 L0,8 L-1.6,1.6 L-8,0 L-1.6,-1.6 Z" fill="#1a1a1a"/></g>
     </g>
 
     <!-- Shooting stars -->
     <g transform="translate(980,170) rotate(-32)">
         <line class="shooting-star shoot-a" x1="0" y1="0" x2="150" y2="0" stroke="url(#shoot-tail)" stroke-width="1.6"/>
-        <circle class="shooting-star shoot-a" cx="0" cy="0" r="1.6" fill="#ffffff" filter="url(#glow)"/>
+        <circle class="shooting-star shoot-a" cx="0" cy="0" r="1.6" fill="#1a1a1a" filter="url(#glow)"/>
     </g>
     <g transform="translate(140,420) rotate(-160)">
         <line class="shooting-star shoot-b" x1="0" y1="0" x2="120" y2="0" stroke="url(#shoot-tail)" stroke-width="1.2"/>
-        <circle class="shooting-star shoot-b" cx="0" cy="0" r="1.3" fill="#ffffff"/>
+        <circle class="shooting-star shoot-b" cx="0" cy="0" r="1.3" fill="#1a1a1a"/>
     </g>
     <g transform="translate(1150,700) rotate(-38)">
         <line class="shooting-star shoot-c" x1="0" y1="0" x2="110" y2="0" stroke="url(#shoot-tail-gold)" stroke-width="1.3"/>
-        <circle class="shooting-star shoot-c" cx="0" cy="0" r="1.4" fill="#ffe9b8"/>
+        <circle class="shooting-star shoot-c" cx="0" cy="0" r="1.4" fill="#704d00"/>
     </g>
     <g transform="translate(90,560) rotate(-155)">
         <line class="shooting-star shoot-d" x1="0" y1="0" x2="130" y2="0" stroke="url(#shoot-tail)" stroke-width="1.1"/>
-        <circle class="shooting-star shoot-d" cx="0" cy="0" r="1.2" fill="#ffffff"/>
+        <circle class="shooting-star shoot-d" cx="0" cy="0" r="1.2" fill="#1a1a1a"/>
     </g>
     <g transform="translate(980,1030) rotate(-40)">
         <line class="shooting-star shoot-e" x1="0" y1="0" x2="120" y2="0" stroke="url(#shoot-tail-gold)" stroke-width="1.2"/>
-        <circle class="shooting-star shoot-e" cx="0" cy="0" r="1.3" fill="#ffe9b8"/>
+        <circle class="shooting-star shoot-e" cx="0" cy="0" r="1.3" fill="#704d00"/>
     </g>
     <g transform="translate(700,180) rotate(-165)">
         <line class="shooting-star shoot-f" x1="0" y1="0" x2="110" y2="0" stroke="url(#shoot-tail)" stroke-width="1.2"/>
-        <circle class="shooting-star shoot-f" cx="0" cy="0" r="1.3" fill="#cfe1ff"/>
+        <circle class="shooting-star shoot-f" cx="0" cy="0" r="1.3" fill="#002159"/>
     </g>
     <g transform="translate(1080,880) rotate(-30)">
         <line class="shooting-star shoot-g" x1="0" y1="0" x2="100" y2="0" stroke="url(#shoot-tail)" stroke-width="1"/>
-        <circle class="shooting-star shoot-g" cx="0" cy="0" r="1.1" fill="#ffffff"/>
+        <circle class="shooting-star shoot-g" cx="0" cy="0" r="1.1" fill="#1a1a1a"/>
     </g>
 
     <!-- Rising light motes in the lower sky (seamless loop) -->
     <g class="motes">
         <g id="motes-row">
-            <circle cx="120"  cy="965"  r="1.1" fill="#dbe6ff"/>
-            <circle cx="300"  cy="1080" r="0.9" fill="#EADCB9"/>
-            <circle cx="415"  cy="1000" r="1.2" fill="#dbe6ff"/>
-            <circle cx="520"  cy="1120" r="0.8" fill="#a5c8ff"/>
-            <circle cx="705"  cy="1040" r="1"   fill="#dbe6ff"/>
-            <circle cx="830"  cy="975"  r="1.3" fill="#EADCB9"/>
-            <circle cx="960"  cy="1105" r="0.9" fill="#dbe6ff"/>
-            <circle cx="1065" cy="1010" r="1.1" fill="#a5c8ff"/>
-            <circle cx="1150" cy="1130" r="0.8" fill="#dbe6ff"/>
-            <circle cx="215"  cy="1150" r="1"   fill="#EADCB9"/>
+            <circle cx="120"  cy="965"  r="1.1" fill="#00174d"/>
+            <circle cx="300"  cy="1080" r="0.9" fill="#6e5516"/>
+            <circle cx="415"  cy="1000" r="1.2" fill="#00174d"/>
+            <circle cx="520"  cy="1120" r="0.8" fill="#003383"/>
+            <circle cx="705"  cy="1040" r="1"   fill="#00174d"/>
+            <circle cx="830"  cy="975"  r="1.3" fill="#6e5516"/>
+            <circle cx="960"  cy="1105" r="0.9" fill="#00174d"/>
+            <circle cx="1065" cy="1010" r="1.1" fill="#003383"/>
+            <circle cx="1150" cy="1130" r="0.8" fill="#00174d"/>
+            <circle cx="215"  cy="1150" r="1"   fill="#6e5516"/>
         </g>
         <use href="#motes-row" y="160"/>
     </g>
@@ -575,25 +575,25 @@
     <!-- Fainter rising motes across the mid sky -->
     <g class="motes motes-mid">
         <g id="motes-row-2">
-            <circle cx="180"  cy="470" r="0.9" fill="#dbe6ff"/>
-            <circle cx="340"  cy="560" r="0.8" fill="#EADCB9"/>
-            <circle cx="520"  cy="450" r="1"   fill="#dbe6ff"/>
-            <circle cx="700"  cy="580" r="0.8" fill="#a5c8ff"/>
-            <circle cx="880"  cy="470" r="0.9" fill="#dbe6ff"/>
-            <circle cx="1040" cy="560" r="1"   fill="#EADCB9"/>
-            <circle cx="90"   cy="600" r="0.8" fill="#dbe6ff"/>
-            <circle cx="1150" cy="450" r="0.9" fill="#dbe6ff"/>
+            <circle cx="180"  cy="470" r="0.9" fill="#00174d"/>
+            <circle cx="340"  cy="560" r="0.8" fill="#6e5516"/>
+            <circle cx="520"  cy="450" r="1"   fill="#00174d"/>
+            <circle cx="700"  cy="580" r="0.8" fill="#003383"/>
+            <circle cx="880"  cy="470" r="0.9" fill="#00174d"/>
+            <circle cx="1040" cy="560" r="1"   fill="#6e5516"/>
+            <circle cx="90"   cy="600" r="0.8" fill="#00174d"/>
+            <circle cx="1150" cy="450" r="0.9" fill="#00174d"/>
         </g>
         <use href="#motes-row-2" y="160"/>
     </g>
 
     <!-- Distant satellites constantly drifting across the sky -->
     <g opacity="0.7">
-        <circle r="1.6" fill="#cfe1ff" filter="url(#glow)">
+        <circle r="1.6" fill="#002159" filter="url(#glow)">
             <animateMotion dur="47s" repeatCount="indefinite"
                 path="M -40 480 A 640 190 0 1 1 1240 480 A 640 190 0 1 1 -40 480"/>
         </circle>
-        <circle r="1.2" fill="#ffe9b8">
+        <circle r="1.2" fill="#704d00">
             <animateMotion dur="61s" begin="-25s" repeatCount="indefinite"
                 path="M 1240 760 A 640 210 0 1 0 -40 760 A 640 210 0 1 0 1240 760"/>
         </circle>
@@ -601,7 +601,7 @@
 
     <!-- Orbiter circling the header block -->
     <g opacity="0.6">
-        <circle r="1.4" fill="#fff6df" filter="url(#glow)">
+        <circle r="1.4" fill="#493400" filter="url(#glow)">
             <animateMotion dur="34s" repeatCount="indefinite"
                 path="M 930 210 A 330 44 0 1 1 270 210 A 330 44 0 1 1 930 210"/>
         </circle>
@@ -616,7 +616,7 @@
     <!-- Ornament under the title -->
     <g>
         <rect class="ornament-line ol-left"  x="460" y="299.6" width="128" height="0.8" fill="url(#fade-left)"/>
-        <path class="reveal r3" d="M600,294 L604,300 L600,306 L596,300 Z" fill="#EADCB9" opacity="0.8"/>
+        <path class="reveal r3" d="M600,294 L604,300 L600,306 L596,300 Z" fill="#6e5516" opacity="0.8"/>
         <rect class="ornament-line ol-right" x="612" y="299.6" width="128" height="0.8" fill="url(#fade-right)"/>
     </g>
 
@@ -628,20 +628,20 @@
 
     <g class="reveal r6"><text x="600" y="482" class="body-text poem">One day, it may be our <tspan class="kw3">creation</tspan>.</text></g>
 
-    <g class="reveal r8">
+    <g>
     <!-- Orbital system circling the ENTRAR button (constant motion) -->
     <g transform="rotate(-12 600 848)" opacity="0.55">
-        <ellipse cx="600" cy="848" rx="250" ry="72" fill="none" stroke="#EADCB9"
+        <ellipse cx="600" cy="848" rx="250" ry="72" fill="none" stroke="#6e5516"
             stroke-width="0.5" stroke-dasharray="2 7" opacity="0.4"/>
-        <circle r="1.8" fill="#fff6df" filter="url(#glow)">
+        <circle r="1.8" fill="#493400" filter="url(#glow)">
             <animateMotion dur="9s" repeatCount="indefinite"
                 path="M 850 848 A 250 72 0 1 1 350 848 A 250 72 0 1 1 850 848"/>
         </circle>
-        <circle r="1.3" fill="#a5c8ff">
+        <circle r="1.3" fill="#003383">
             <animateMotion dur="15s" begin="-6s" repeatCount="indefinite"
                 path="M 350 848 A 250 72 0 1 0 850 848 A 250 72 0 1 0 350 848"/>
         </circle>
-        <circle r="1.4" fill="#EADCB9">
+        <circle r="1.4" fill="#6e5516">
             <animateMotion dur="21s" begin="-13s" repeatCount="indefinite"
                 path="M 600 776 A 250 72 0 1 1 600 920 A 250 72 0 1 1 600 776"/>
         </circle>
@@ -650,8 +650,8 @@
     <!-- Bottom call-to-action (subtle button, no box) -->
     <g>
         <!-- Expanding ripples emanating from the button (smooth easing) -->
-        <circle class="ripple rp1" cx="600" cy="848" r="115" fill="none" stroke="#e3ccaa" stroke-width="0.7"/>
-        <circle class="ripple rp2" cx="600" cy="848" r="115" fill="none" stroke="#e3ccaa" stroke-width="0.7"/>
+        <circle class="ripple rp1" cx="600" cy="848" r="115" fill="none" stroke="#7d561c" stroke-width="0.7"/>
+        <circle class="ripple rp2" cx="600" cy="848" r="115" fill="none" stroke="#7d561c" stroke-width="0.7"/>
 
         <!-- Breathing halo behind the word -->
         <ellipse class="halo" cx="600" cy="848" rx="210" ry="52" fill="url(#entrar-halo)"/>
@@ -661,11 +661,11 @@
 
         <!-- Underline with fading edges + pulsing core -->
         <rect x="470" y="901.5" width="120" height="1" fill="url(#fade-left)"/>
-        <circle cx="600" cy="902" r="2" fill="#e3ccaa" filter="url(#glow)">
+        <circle cx="600" cy="902" r="2" fill="#7d561c" filter="url(#glow)">
             <animate attributeName="opacity" values="0.6;1;0.6" dur="4.5s" repeatCount="indefinite"/>
         </circle>
         <rect x="610" y="901.5" width="120" height="1" fill="url(#fade-right)"/>
-        <circle class="ul-pulse" cx="470" cy="902" r="1.5" fill="#fff6df"/>
+        <circle class="ul-pulse" cx="470" cy="902" r="1.5" fill="#493400"/>
     </g>
 
     </g>

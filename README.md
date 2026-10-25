@@ -43,11 +43,11 @@
 </p>
 
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/header-prologue-dark.svg"><img src="docs/readme/header-prologue-light.svg" width="100%" alt="Orbital museum. The sky was distance; then it became a destination; one day, it may be our creation."></picture></a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/header-epilogue-dark.svg"><img src="docs/readme/header-epilogue-light.svg" width="100%" alt="Orbital museum. The sky was distance; then it became a destination; one day, it may be our creation."></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/enter-v2-dark.svg"><img src="docs/readme/enter-v2-light.svg" width="520" alt="Enter the museum"></picture></a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/enter-v3-dark.svg"><img src="docs/readme/enter-v3-light.svg" width="520" alt="Enter the museum"></picture></a>
 </p>
 
 <br>
