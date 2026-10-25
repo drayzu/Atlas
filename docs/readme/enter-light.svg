@@ -118,7 +118,7 @@
             fill: #6c5e47;
             text-anchor: middle;
         }
-        .bold-text { font-weight: 600; fill: #7d561c; }
+        .poem { font-size: 30px; font-style: italic; } .bold-text { font-weight: 600; fill: #7d561c; }
 
         /* ===================== SPACE EFFECTS ===================== */
 
@@ -621,18 +621,12 @@
     </g>
 
     <!-- Main Paragraphs -->
-    <g class="reveal r3">
-        <text x="600" y="390" class="body-text">For most of our history, looking up</text>
-        <text x="600" y="430" class="body-text">meant seeing something beyond our reach.</text>
-    </g>
 
-    <g class="reveal r4"><text x="600" y="495" class="body-text">The sky was <tspan class="kw1">distance</tspan>.</text></g>
+    <g class="reveal r4"><text x="600" y="378" class="body-text poem">The sky was <tspan class="kw1">distance</tspan>.</text></g>
 
-    <g class="reveal r5"><text x="600" y="555" class="body-text">Then it became a <tspan class="kw2">destination</tspan>.</text></g>
+    <g class="reveal r5"><text x="600" y="430" class="body-text poem">Then it became a <tspan class="kw2">destination</tspan>.</text></g>
 
-    <g class="reveal r6"><text x="600" y="615" class="body-text">Perhaps one day it will be our <tspan class="kw3">creation</tspan>.</text></g>
-
-    <g class="reveal r7"><text x="600" y="675" class="body-text"><tspan class="bold-text">Astroingeniería</tspan> explores what comes after reaching the stars.</text></g>
+    <g class="reveal r6"><text x="600" y="482" class="body-text poem">One day, it may be our <tspan class="kw3">creation</tspan>.</text></g>
 
     <g class="reveal r8">
     <!-- Orbital system circling the ENTRAR button (constant motion) -->

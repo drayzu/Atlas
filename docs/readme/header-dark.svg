@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 110 1200 620" width="1200" height="620">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 110 1200 430" width="1200" height="430">
     <defs>
         <!-- Breathing nebulas (from pruebas.svg reference) -->
         <radialGradient id="neb-blue" cx="50%" cy="50%" r="50%">
@@ -118,7 +118,7 @@
             fill: #c5bcae;
             text-anchor: middle;
         }
-        .bold-text { font-weight: 600; fill: #e3ccaa; }
+        .poem { font-size: 30px; font-style: italic; } .bold-text { font-weight: 600; fill: #e3ccaa; }
 
         /* ===================== SPACE EFFECTS ===================== */
 
@@ -370,7 +370,7 @@
         @media (prefers-reduced-motion: reduce) {
             * { animation: none !important; }
         }
-    </style><defs><linearGradient id="efh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000"/><stop offset="0.07" stop-color="#fff"/><stop offset="0.9299999999999999" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient><linearGradient id="efv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000"/><stop offset="0.0967741935483871" stop-color="#fff"/><stop offset="0.9032258064516129" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient><mask id="emh" maskUnits="userSpaceOnUse" x="0" y="110" width="1200" height="620"><rect x="0" y="110" width="1200" height="620" fill="url(#efh)"/></mask><mask id="emv" maskUnits="userSpaceOnUse" x="0" y="110" width="1200" height="620"><rect x="0" y="110" width="1200" height="620" fill="url(#efv)"/></mask></defs><g mask="url(#emh)"><g mask="url(#emv)">
+    </style><defs><linearGradient id="efh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000"/><stop offset="0.07" stop-color="#fff"/><stop offset="0.9299999999999999" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient><linearGradient id="efv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000"/><stop offset="0.13953488372093023" stop-color="#fff"/><stop offset="0.8604651162790697" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient><mask id="emh" maskUnits="userSpaceOnUse" x="0" y="110" width="1200" height="430"><rect x="0" y="110" width="1200" height="430" fill="url(#efh)"/></mask><mask id="emv" maskUnits="userSpaceOnUse" x="0" y="110" width="1200" height="430"><rect x="0" y="110" width="1200" height="430" fill="url(#efv)"/></mask></defs><g mask="url(#emh)"><g mask="url(#emv)">
 
     <!-- Breathing nebulas (atmospheric depth, from reference) -->
     <ellipse class="neb neb-a" cx="950" cy="230" rx="320" ry="190" fill="url(#neb-blue)"/>
@@ -621,18 +621,12 @@
     </g>
 
     <!-- Main Paragraphs -->
-    <g class="reveal r3">
-        <text x="600" y="390" class="body-text">For most of our history, looking up</text>
-        <text x="600" y="430" class="body-text">meant seeing something beyond our reach.</text>
-    </g>
 
-    <g class="reveal r4"><text x="600" y="495" class="body-text">The sky was <tspan class="kw1">distance</tspan>.</text></g>
+    <g class="reveal r4"><text x="600" y="378" class="body-text poem">The sky was <tspan class="kw1">distance</tspan>.</text></g>
 
-    <g class="reveal r5"><text x="600" y="555" class="body-text">Then it became a <tspan class="kw2">destination</tspan>.</text></g>
+    <g class="reveal r5"><text x="600" y="430" class="body-text poem">Then it became a <tspan class="kw2">destination</tspan>.</text></g>
 
-    <g class="reveal r6"><text x="600" y="615" class="body-text">Perhaps one day it will be our <tspan class="kw3">creation</tspan>.</text></g>
-
-    <g class="reveal r7"><text x="600" y="675" class="body-text"><tspan class="bold-text">Astroingeniería</tspan> explores what comes after reaching the stars.</text></g>
+    <g class="reveal r6"><text x="600" y="482" class="body-text poem">One day, it may be our <tspan class="kw3">creation</tspan>.</text></g>
 
     <g class="reveal r8">
     <!-- Orbital system circling the ENTRAR button (constant motion) -->
