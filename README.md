@@ -1,9 +1,5 @@
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/header-prologue-dark.svg"><img src="docs/readme/header-prologue-light.svg" width="100%" alt="Orbital museum. The sky was distance; then it became a destination; one day, it may be our creation."></picture></a>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v3-dark.webp"><img src="docs/readme/clips/hero-v3-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v4-dark.webp"><img src="docs/readme/clips/hero-v4-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture></a>
 </p>
 
 <p align="center">
@@ -44,6 +40,10 @@
 
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/search-v3-dark.webp"><img src="docs/readme/clips/search-v3-light.webp" width="100%" alt="Chapter 9 — Extraterrestrial intelligence"></picture>
+</p>
+
+<p align="center">
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/header-prologue-dark.svg"><img src="docs/readme/header-prologue-light.svg" width="100%" alt="Orbital museum. The sky was distance; then it became a destination; one day, it may be our creation."></picture></a>
 </p>
 
 <p align="center">
