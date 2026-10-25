@@ -5,9 +5,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "deploy:dcc": "node scripts/deployDcc.mjs",
-    "setup:dcc": "node scripts/setupDccSsh.mjs",
-    "check:dcc": "node scripts/deployDcc.mjs --check",
     "depth:maps": "node scripts/generateDepthMaps.mjs",
     "imagenes": "node scripts/image-tools/server.mjs --open",
     "imagenes:actualizar": "node scripts/image-tools/build.mjs",
