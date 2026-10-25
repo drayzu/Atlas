@@ -36,3 +36,6 @@ deliverables/
 # Local scratch scripts and TypeScript build info
 zz-*.mjs
 tsconfig.tsbuildinfo
+
+# source clips for tools/readme-clips/sharpen.py (the encoded ones live in docs/readme/clips/)
+tools/readme-clips/src/

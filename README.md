@@ -7,39 +7,39 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/intro-v3-dark.webp"><img src="docs/readme/clips/intro-v3-light.webp" width="100%" alt="Chapter 1 — Introduction"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/intro-v4-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/intro-v4-dark.webp"><source type="image/avif" srcset="docs/readme/clips/intro-v4-light.avif"><img src="docs/readme/clips/intro-v4-light.webp" width="100%" alt="Chapter 1 — Introduction"></picture>
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/habitats-v3-dark.webp"><img src="docs/readme/clips/habitats-v3-light.webp" width="100%" alt="Chapter 2 — Space habitats"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/habitats-v4-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/habitats-v4-dark.webp"><source type="image/avif" srcset="docs/readme/clips/habitats-v4-light.avif"><img src="docs/readme/clips/habitats-v4-light.webp" width="100%" alt="Chapter 2 — Space habitats"></picture>
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/industry-v3-dark.webp"><img src="docs/readme/clips/industry-v3-light.webp" width="100%" alt="Chapter 3 — Space industry"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/industry-v4-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/industry-v4-dark.webp"><source type="image/avif" srcset="docs/readme/clips/industry-v4-light.avif"><img src="docs/readme/clips/industry-v4-light.webp" width="100%" alt="Chapter 3 — Space industry"></picture>
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/planetary-v3-dark.webp"><img src="docs/readme/clips/planetary-v3-light.webp" width="100%" alt="Chapter 4 — Planetary engineering"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/planetary-v4-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/planetary-v4-dark.webp"><source type="image/avif" srcset="docs/readme/clips/planetary-v4-light.avif"><img src="docs/readme/clips/planetary-v4-light.webp" width="100%" alt="Chapter 4 — Planetary engineering"></picture>
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/energy-v3-dark.webp"><img src="docs/readme/clips/energy-v3-light.webp" width="100%" alt="Chapter 5 — Stellar energy"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/energy-v4-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/energy-v4-dark.webp"><source type="image/avif" srcset="docs/readme/clips/energy-v4-light.avif"><img src="docs/readme/clips/energy-v4-light.webp" width="100%" alt="Chapter 5 — Stellar energy"></picture>
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/travel-v3-dark.webp"><img src="docs/readme/clips/travel-v3-light.webp" width="100%" alt="Chapter 6 — Interstellar travel"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/travel-v4-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/travel-v4-dark.webp"><source type="image/avif" srcset="docs/readme/clips/travel-v4-light.avif"><img src="docs/readme/clips/travel-v4-light.webp" width="100%" alt="Chapter 6 — Interstellar travel"></picture>
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/stellar-v3-dark.webp"><img src="docs/readme/clips/stellar-v3-light.webp" width="100%" alt="Chapter 7 — Stellar engineering"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/stellar-v4-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/stellar-v4-dark.webp"><source type="image/avif" srcset="docs/readme/clips/stellar-v4-light.avif"><img src="docs/readme/clips/stellar-v4-light.webp" width="100%" alt="Chapter 7 — Stellar engineering"></picture>
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/civilizations-v3-dark.webp"><img src="docs/readme/clips/civilizations-v3-light.webp" width="100%" alt="Chapter 8 — Cosmic civilizations"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/civilizations-v4-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/civilizations-v4-dark.webp"><source type="image/avif" srcset="docs/readme/clips/civilizations-v4-light.avif"><img src="docs/readme/clips/civilizations-v4-light.webp" width="100%" alt="Chapter 8 — Cosmic civilizations"></picture>
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/search-v3-dark.webp"><img src="docs/readme/clips/search-v3-light.webp" width="100%" alt="Chapter 9 — Extraterrestrial intelligence"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/search-v4-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/search-v4-dark.webp"><source type="image/avif" srcset="docs/readme/clips/search-v4-light.avif"><img src="docs/readme/clips/search-v4-light.webp" width="100%" alt="Chapter 9 — Extraterrestrial intelligence"></picture>
 </p>
 
 <p align="center">
