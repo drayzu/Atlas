@@ -1,49 +1,65 @@
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/">
-    <img src="docs/readme/header.svg" width="100%" alt="Astroingeniería — an orbital museum of astroengineering"/>
-  </a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/header-dark.svg"><img src="docs/readme/header-light.svg" width="100%" alt="Astroingeniería — an orbital museum. For most of our history, looking up meant seeing something beyond our reach."></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/">
-    <img src="docs/readme/enter.svg" width="400" alt="Enter the museum →"/>
-  </a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/enter-dark.svg"><img src="docs/readme/enter-light.svg" width="600" alt="Enter the museum"></picture></a>
 </p>
 
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/">
-    <img src="docs/readme/clips/hero.webp" width="960" alt="A flight through a nebula to the birth of a star, which a Dyson swarm begins to enclose"/>
-  </a>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-dark.webp"><img src="docs/readme/clips/hero-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture>
 </p>
 
-<p align="center"><em>A museum you fly through: 106 illustrated readings on how we could build in space, from orbital homes to engines that move stars, across nine chapters.</em></p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/intro-dark.webp"><img src="docs/readme/clips/intro-light.webp" width="100%" alt="Chapter 1 — Introduction"></picture>
+</p>
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="docs/readme/clips/chapter-01-intro.webp" width="280" alt="Chapter 1"/><br/><sub><b>01 · Introduction</b> — engineering as landscape</sub></td>
-    <td align="center"><img src="docs/readme/clips/chapter-02-habitats.webp" width="280" alt="Chapter 2"/><br/><sub><b>02 · Space habitats</b> — homes that spin</sub></td>
-    <td align="center"><img src="docs/readme/clips/chapter-03-infrastructure.webp" width="280" alt="Chapter 3"/><br/><sub><b>03 · Space industry</b> — ports, mines, shipyards</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/readme/clips/chapter-04-planetary.webp" width="280" alt="Chapter 4"/><br/><sub><b>04 · Planetary engineering</b> — a field to shield a world</sub></td>
-    <td align="center"><img src="docs/readme/clips/chapter-05-energy.webp" width="280" alt="Chapter 5"/><br/><sub><b>05 · Stellar energy</b> — harvesting a sun</sub></td>
-    <td align="center"><img src="docs/readme/clips/chapter-06-propulsion.webp" width="280" alt="Chapter 6"/><br/><sub><b>06 · Interstellar travel</b> — the long way out</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/readme/clips/chapter-07-stellar.webp" width="280" alt="Chapter 7"/><br/><sub><b>07 · Stellar engineering</b> — steering stars, taming black holes</sub></td>
-    <td align="center"><img src="docs/readme/clips/chapter-08-civilizations.webp" width="280" alt="Chapter 8"/><br/><sub><b>08 · Cosmic civilizations</b> — from planets to galaxies</sub></td>
-    <td align="center"><img src="docs/readme/clips/chapter-09-search.webp" width="280" alt="Chapter 9"/><br/><sub><b>09 · Extraterrestrial intelligence</b> — listening to the silence</sub></td>
-  </tr>
-</table>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/habitats-dark.webp"><img src="docs/readme/clips/habitats-light.webp" width="100%" alt="Chapter 2 — Space habitats"></picture>
+</p>
 
-<p align="center"><sub>Scroll to travel · each chapter opens through its own portal · press <kbd>C</kbd> (or add <code>?cine</code>) and the museum tours itself</sub></p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/industry-dark.webp"><img src="docs/readme/clips/industry-light.webp" width="100%" alt="Chapter 3 — Space industry"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/planetary-dark.webp"><img src="docs/readme/clips/planetary-light.webp" width="100%" alt="Chapter 4 — Planetary engineering"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/energy-dark.webp"><img src="docs/readme/clips/energy-light.webp" width="100%" alt="Chapter 5 — Stellar energy"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/travel-dark.webp"><img src="docs/readme/clips/travel-light.webp" width="100%" alt="Chapter 6 — Interstellar travel"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/stellar-dark.webp"><img src="docs/readme/clips/stellar-light.webp" width="100%" alt="Chapter 7 — Stellar engineering"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/civilizations-dark.webp"><img src="docs/readme/clips/civilizations-light.webp" width="100%" alt="Chapter 8 — Cosmic civilizations"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/search-dark.webp"><img src="docs/readme/clips/search-light.webp" width="100%" alt="Chapter 9 — Extraterrestrial intelligence"></picture>
+</p>
+
+<p align="center">
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/enter-dark.svg"><img src="docs/readme/enter-light.svg" width="600" alt="Enter the museum"></picture></a>
+</p>
+
+<br>
 
 <details>
 <summary><sub>Under the hood</sub></summary>
+<br>
 
-<br/>
-
-React + TypeScript + Vite, deployed to GitHub Pages. The sky, portals and chapter worlds are Three.js, hand-written shaders and Canvas 2D (some drawn in a worker), with illustrations brought to life through depth maps. Content is in Spanish.
+- A museum you fly through: 106 illustrated readings on how we could build in space, across nine chapters.
+- Scroll to travel; each chapter opens through its own portal. Press <kbd>C</kbd> (or add `?cine`) and the museum tours itself.
+- React + TypeScript + Vite, deployed to GitHub Pages. The sky, portals and chapter worlds are Three.js, hand-written shaders and Canvas 2D (some drawn in a worker), with illustrations brought to life through depth maps.
+- Content is in Spanish.
 
 ```bash
 npm install
