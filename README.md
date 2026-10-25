@@ -52,10 +52,9 @@
 <summary><sub>Under the hood</sub></summary>
 <br>
 
-- A museum you fly through: 106 illustrated readings on how we could build in space, across nine chapters.
-- Scroll to travel; each chapter opens through its own portal. Press <kbd>C</kbd> (or add `?cine`) and the museum tours itself.
-- React + TypeScript + Vite, deployed to GitHub Pages. The sky, portals and chapter worlds are Three.js, hand-written shaders and Canvas 2D (some drawn in a worker), with illustrations brought to life through depth maps.
-- Content is in Spanish.
+- **What it is.** A museum you fly through: 106 illustrated readings on how we could build in space, from orbital homes to Dyson swarms and engines that move stars, across nine chapters. In Spanish, with an English version.
+- **How to visit.** Scroll to travel; each chapter opens through its own portal, and the star map in the side rail is the index. Press <kbd>C</kbd> (or add `?cine`) and the museum tours itself.
+- **How it's built.** React + TypeScript + Vite on GitHub Pages. The sky, portals and chapter worlds are Three.js and hand-written shaders (the chapter 7 black hole is ray-traced on the GPU), with Canvas 2D, some of it drawn in a worker, and illustrations brought to life through depth maps.
 
 ```bash
 npm install
