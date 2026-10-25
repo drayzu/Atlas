@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/energy-dark.webp"><img src="docs/readme/clips/energy-light.webp" width="100%" alt="Chapter 5 — Stellar energy"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/energy-v2-dark.webp"><img src="docs/readme/clips/energy-v2-light.webp" width="100%" alt="Chapter 5 — Stellar energy"></picture>
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/stellar-dark.webp"><img src="docs/readme/clips/stellar-light.webp" width="100%" alt="Chapter 7 — Stellar engineering"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/stellar-v2-dark.webp"><img src="docs/readme/clips/stellar-v2-light.webp" width="100%" alt="Chapter 7 — Stellar engineering"></picture>
 </p>
 
 <p align="center">
