@@ -3,51 +3,51 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v2-dark.webp"><img src="docs/readme/clips/hero-v2-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture>
-</p>
-
-<p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/enter-dark.svg"><img src="docs/readme/enter-light.svg" width="600" alt="Enter the museum"></picture></a>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/intro-dark.webp"><img src="docs/readme/clips/intro-light.webp" width="100%" alt="Chapter 1 — Introduction"></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/habitats-dark.webp"><img src="docs/readme/clips/habitats-light.webp" width="100%" alt="Chapter 2 — Space habitats"></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/industry-dark.webp"><img src="docs/readme/clips/industry-light.webp" width="100%" alt="Chapter 3 — Space industry"></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/planetary-dark.webp"><img src="docs/readme/clips/planetary-light.webp" width="100%" alt="Chapter 4 — Planetary engineering"></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/energy-v2-dark.webp"><img src="docs/readme/clips/energy-v2-light.webp" width="100%" alt="Chapter 5 — Stellar energy"></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/travel-dark.webp"><img src="docs/readme/clips/travel-light.webp" width="100%" alt="Chapter 6 — Interstellar travel"></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/stellar-v2-dark.webp"><img src="docs/readme/clips/stellar-v2-light.webp" width="100%" alt="Chapter 7 — Stellar engineering"></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/civilizations-dark.webp"><img src="docs/readme/clips/civilizations-light.webp" width="100%" alt="Chapter 8 — Cosmic civilizations"></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/search-dark.webp"><img src="docs/readme/clips/search-light.webp" width="100%" alt="Chapter 9 — Extraterrestrial intelligence"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v3-dark.webp"><img src="docs/readme/clips/hero-v3-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture>
 </p>
 
 <p align="center">
   <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/address-dark.svg"><img src="docs/readme/address-light.svg" width="560" alt="Open drayzu.github.io/AstroIngenieria"></picture></a>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/intro-v3-dark.webp"><img src="docs/readme/clips/intro-v3-light.webp" width="100%" alt="Chapter 1 — Introduction"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/habitats-v3-dark.webp"><img src="docs/readme/clips/habitats-v3-light.webp" width="100%" alt="Chapter 2 — Space habitats"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/industry-v3-dark.webp"><img src="docs/readme/clips/industry-v3-light.webp" width="100%" alt="Chapter 3 — Space industry"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/planetary-v3-dark.webp"><img src="docs/readme/clips/planetary-v3-light.webp" width="100%" alt="Chapter 4 — Planetary engineering"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/energy-v3-dark.webp"><img src="docs/readme/clips/energy-v3-light.webp" width="100%" alt="Chapter 5 — Stellar energy"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/travel-v3-dark.webp"><img src="docs/readme/clips/travel-v3-light.webp" width="100%" alt="Chapter 6 — Interstellar travel"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/stellar-v3-dark.webp"><img src="docs/readme/clips/stellar-v3-light.webp" width="100%" alt="Chapter 7 — Stellar engineering"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/civilizations-v3-dark.webp"><img src="docs/readme/clips/civilizations-v3-light.webp" width="100%" alt="Chapter 8 — Cosmic civilizations"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/search-v3-dark.webp"><img src="docs/readme/clips/search-v3-light.webp" width="100%" alt="Chapter 9 — Extraterrestrial intelligence"></picture>
+</p>
+
+<p align="center">
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/enter-v2-dark.svg"><img src="docs/readme/enter-v2-light.svg" width="520" alt="Enter the museum"></picture></a>
 </p>
 
 <br>
