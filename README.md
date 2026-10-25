@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v4-dark.webp"><img src="docs/readme/clips/hero-v4-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture></a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v5-dark.webp"><img src="docs/readme/clips/hero-v5-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture></a>
 </p>
 
 <p align="center">
