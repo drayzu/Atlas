@@ -47,7 +47,7 @@
 </p>
 
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/enter-dark.svg"><img src="docs/readme/enter-light.svg" width="600" alt="Enter the museum"></picture></a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/address-dark.svg"><img src="docs/readme/address-light.svg" width="560" alt="Open drayzu.github.io/AstroIngenieria"></picture></a>
 </p>
 
 <br>
