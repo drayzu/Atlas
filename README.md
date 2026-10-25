@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/header-dark.svg"><img src="docs/readme/header-light.svg" width="100%" alt="Astroingeniería — an orbital museum. For most of our history, looking up meant seeing something beyond our reach."></picture></a>
+  <a href="https://drayzu.github.io/AstroIngenieria/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/readme/header-short-dark.svg"><img src="docs/readme/header-short-light.svg" width="100%" alt="Astroingeniería — an orbital museum. For most of our history, looking up meant seeing something beyond our reach."></picture></a>
 </p>
 
 <p align="center">
