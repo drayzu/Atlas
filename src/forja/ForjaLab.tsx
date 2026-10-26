@@ -94,7 +94,7 @@ export default function ForjaLab() {
     <div className="fg-root">
       <header className="fg-bar" aria-label="La Forja — laboratorio de diseño">
         <span className="fg-brand">
-          ASTROINGENIERÍA <em>· LA FORJA</em>
+          ATLAS <em>· LA FORJA</em>
         </span>
         <nav className="fg-tabs" aria-label="Plantillas">
           {templates.map((template, index) => (

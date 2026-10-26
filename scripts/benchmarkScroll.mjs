@@ -43,7 +43,7 @@ try {
     }).observe({ type: 'long-animation-frame', buffered: true });
   });
 
-  await page.goto('http://127.0.0.1:5198/AstroIngenieria/', { waitUntil: 'load' });
+  await page.goto('http://127.0.0.1:5198/Atlas/', { waitUntil: 'load' });
   const gpu = await page.evaluate(() => {
     const gl = document.createElement('canvas').getContext('webgl');
     const info = gl?.getExtension('WEBGL_debug_renderer_info');

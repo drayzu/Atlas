@@ -26,7 +26,7 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
   }), [locale]);
   useLayoutEffect(() => {
     document.documentElement.lang = locale;
-    document.title = locale === 'en' ? 'Astroengineering — Orbital Museum' : 'Astroingeniería — Museo Orbital';
+    document.title = locale === 'en' ? 'Atlas — Orbital Museum' : 'Atlas — Museo Orbital';
     document.querySelector('meta[name="description"]')?.setAttribute('content', locale === 'en'
       ? 'Orbital Museum: an interactive permanent exhibition of astroengineering. Nine rooms exploring space habitats, megastructures, stellar energy and cosmic civilizations.'
       : 'Museo Orbital: exposición permanente interactiva de astroingeniería. Nueve salas con hábitats espaciales, megaestructuras, energía estelar y civilizaciones cósmicas.');

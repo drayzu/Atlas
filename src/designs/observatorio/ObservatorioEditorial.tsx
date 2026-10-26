@@ -54,7 +54,7 @@ const Cover = ({ feature }: { feature: AstroChapter }) => {
           ))}
         </h1>
         <div className="oe-masthead-rule">
-          <span>ATLAS DE ASTROINGENIERÍA</span>
+          <span>ATLAS · DESTINO</span>
           <span>MMXXVI</span>
           <span>DISTRIBUCIÓN GRATUITA</span>
         </div>

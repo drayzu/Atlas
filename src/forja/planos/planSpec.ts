@@ -454,7 +454,7 @@ const frameOps = (concept: AstroConcept, drawingNo: string, date: string): DrawO
   ops.push({ type: 'rect', x: 18, y: 18, width: PLANE_W - 36, height: PLANE_H - 36, stroke: 'ghost', w: 1 });
   ops.push({ type: 'line', x1: 18, y1: 52, x2: PLANE_W - 18, y2: 52, stroke: 'ghost' });
   ops.push({ type: 'text', x: 34, y: 40, s: 'OFICINA DE DISEÑO — LA FORJA', size: 9, mono: true });
-  ops.push({ type: 'text', x: PLANE_W / 2, y: 40, s: 'ATLAS DE ASTROINGENIERÍA', size: 9, mono: true, anchor: 'middle', dim: true });
+  ops.push({ type: 'text', x: PLANE_W / 2, y: 40, s: 'ATLAS · DESTINO', size: 9, mono: true, anchor: 'middle', dim: true });
   ops.push({ type: 'text', x: PLANE_W - 34, y: 40, s: `Nº ${drawingNo} · ${date}`, size: 9, mono: true, anchor: 'end', bright: true });
   ops.push({ type: 'text', x: 34, y: 76, s: `VISTA GENERAL — ${concept.title.toUpperCase()}`, size: 11.5, mono: true, bright: true });
   return ops;
@@ -536,7 +536,7 @@ const titleBlockOps = (
   ops.push({ type: 'line', x1: x0, y1: y0 + 82, x2: x1, y2: y0 + 82, stroke: 'ghost' });
   ops.push({ type: 'line', x1: x0 + 330, y1: y0 + 34, x2: x0 + 330, y2: y0 + 82, stroke: 'ghost' });
   ops.push({ type: 'text', x: x0 + 12, y: y0 + 16, s: 'PROYECTO', size: 7.5, mono: true });
-  ops.push({ type: 'text', x: x0 + 100, y: y0 + 16, s: 'ATLAS DE ASTROINGENIERÍA', size: 10.5, mono: true, bright: true });
+  ops.push({ type: 'text', x: x0 + 100, y: y0 + 16, s: 'ATLAS · DESTINO', size: 10.5, mono: true, bright: true });
   ops.push({ type: 'text', x: x1 - 12, y: y0 + 16, s: `ESCALA TÍPICA  ${sizeLabel}`, size: 9, mono: true, anchor: 'end' });
   ops.push({ type: 'text', x: x0 + 12, y: y0 + 48, s: 'TÍTULO', size: 7.5, mono: true });
   wrapText(concept.title.toUpperCase(), 40, 2).forEach((line, i) => {

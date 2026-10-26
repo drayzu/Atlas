@@ -1,4 +1,4 @@
-# Guía editorial de AstroIngeniería
+# Guía editorial del Atlas
 
 La organización visible del museo se define en [Recorrido editorial](./reading-journey.md). Las tandas y archivos históricos conservan sus identificadores; el capítulo visible de una lectura puede diferir de su archivo de almacenamiento.
 

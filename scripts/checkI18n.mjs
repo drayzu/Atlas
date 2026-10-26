@@ -84,12 +84,12 @@ try {
   await mkdir(artifactDir, { recursive: true });
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  const base = 'http://127.0.0.1:5195/AstroIngenieria/';
+  const base = 'http://127.0.0.1:5195/Atlas/';
   const choose = language => page.locator('.mo-hero-toolbar .mo-language-switch button').filter({ hasText: language }).click();
   await page.goto(base);
   await expect(page.locator('.mo-root')).toBeVisible({ timeout: 30000 });
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
-  await expect(page.locator('h1')).toHaveAttribute('aria-label', 'Astroingeniería');
+  await expect(page.locator('h1')).toHaveAttribute('aria-label', 'Atlas');
   await choose('EN');
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
   await expect(page.locator('h1')).toHaveAttribute('aria-label', 'Astroengineering');

@@ -25,7 +25,7 @@ try {
     '<html><body style="margin:0"><main id="fixture" style="position:fixed;inset:0;overflow:auto"></main></body></html>' }));
   await page.goto(`${origin}/mask-fixture`);
   const result = await page.evaluate(async () => {
-    const { CursorConstellationLayer } = await import('/AstroIngenieria/src/designs/museo-orbital/CursorConstellationLayer.ts');
+    const { CursorConstellationLayer } = await import('/Atlas/src/designs/museo-orbital/CursorConstellationLayer.ts');
     const root = document.querySelector('#fixture');
     root.innerHTML = `
       <div class="mo-vitrina-card" style="position:absolute;left:80px;top:80px;width:320px;height:300px"></div>
@@ -156,7 +156,7 @@ try {
     return 'Mask pixels, shared measurements, buffer reuse, compositing, fades, DPR and cleanup passed';
   });
   console.log(result);
-  await page.goto(`${origin}/AstroIngenieria/`);
+  await page.goto(`${origin}/Atlas/`);
   await page.locator('.mo-chapter-intro').first().scrollIntoViewIfNeeded();
   await page.mouse.move(650, 400, { steps: 20 });
   await page.locator('.mo-chapter-view').first().click();
@@ -167,7 +167,7 @@ try {
   await page.waitForTimeout(500);
   const reduced = await browser.newPage({ reducedMotion: 'reduce' });
   reduced.on('pageerror', error => errors.push(error.message));
-  await reduced.goto(`${origin}/AstroIngenieria/`);
+  await reduced.goto(`${origin}/Atlas/`);
   await reduced.waitForTimeout(500);
   assert.deepEqual(errors, [], 'Museum and reduced motion should run without errors');
   console.log('Museum navigation, resize and reduced-motion smoke checks passed');

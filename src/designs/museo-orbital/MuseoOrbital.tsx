@@ -400,7 +400,7 @@ const Hero = memo(({
   const { locale, t } = useLocale();
   const reduced = useReducedMotion();
   const [imageFocus, setImageFocus] = useState(false);
-  const letters = useMemo(() => (locale === 'en' ? 'ASTROENGINEERING' : 'ASTROINGENIERÍA').split(''), [locale]);
+  const letters = useMemo(() => 'ATLAS'.split(''), []);
   const letterRefs = useRef<(HTMLSpanElement | null)[]>([]);
   const boxRefs = useRef<(HTMLSpanElement | null)[]>([]);
   const pgRefs = useRef<(HTMLSpanElement | null)[]>([]);
@@ -1621,9 +1621,9 @@ const Hero = memo(({
           initial={{ opacity: 0, y: 18 }}
           animate={revealed ? { opacity: 1, y: 0 } : { opacity: 0, y: 18, transition: { duration: 0 } }}
           transition={{ delay: reduced ? 0 : living ? 1.5 : 0.5, duration: 0.9, ease: EASE_OUT }}
-        >{t("Un atlas ilustrado")}</motion.p>
+        >{t("La biblioteca de la serie · Destino")}</motion.p>
 
-        <h1 key={locale} className="mo-hero-title" aria-label={t("Astroingeniería")}>
+        <h1 key={locale} className="mo-hero-title" aria-label="Atlas">
           {letters.map((letter, index) => [
             living && index === LIVING_TITLE_BREAK && <span key="break" className="mo-hero-break" aria-hidden="true" />,
             <span

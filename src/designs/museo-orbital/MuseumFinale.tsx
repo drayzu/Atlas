@@ -20,7 +20,7 @@ const EASE_SWALLOW = cubicBezier(0.6, 0, 0.98, 0.55);
 const linear = (value: number) => value;
 
 const QUOTE = 'La naturaleza necesitó miles de millones de años para engendrar una mente capaz de comprenderla. Bastó una fracción de ese tiempo para que aquella mente aprendiera a crear otras. Y así, de un universo que nunca supo hacia dónde iba, nació algo capaz de elegir hacia dónde irá.';
-const SIGNATURE = 'ASTROINGENIERÍA — EXPOSICIÓN PERMANENTE · MUSEO ORBITAL · MMXXVI';
+const SIGNATURE = 'ATLAS · DESTINO — EXPOSICIÓN PERMANENTE · MUSEO ORBITAL · MMXXVI';
 
 /* Guion del cierre sobre el tramo fijo. Es la primera mitad de la intro y
    no una animación aparte: un rebote, como un universo cíclico. La estrella

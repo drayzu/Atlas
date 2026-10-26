@@ -44,7 +44,7 @@ try {
       onCommitFiberUnmount: () => {},
     };
   });
-  const base = 'http://127.0.0.1:5196/AstroIngenieria/';
+  const base = 'http://127.0.0.1:5196/Atlas/';
   const counters = () => page.evaluate(() => ({ ...window.__museumPerf }));
   const root = page.locator('.mo-root');
   const top = () => root.evaluate(el => el.scrollTop);

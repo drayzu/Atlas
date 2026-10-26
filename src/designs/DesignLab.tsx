@@ -78,7 +78,7 @@ export default function DesignLab() {
     <div className="dl-root">
       <header className="dl-bar" aria-label="Laboratorio de diseño">
         <span className="dl-brand">
-          ASTROINGENIERÍA <em>· LAB DE DISEÑO</em>
+          ATLAS <em>· LAB DE DISEÑO</em>
         </span>
         <nav className="dl-tabs" aria-label="Plantillas">
           {templates.map((template, index) => (

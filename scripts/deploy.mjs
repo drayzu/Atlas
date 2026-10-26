@@ -7,7 +7,7 @@ import { cpSync, existsSync, mkdtempSync, readdirSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-const SITE_URL = 'https://drayzu.github.io/AstroIngenieria/';
+const SITE_URL = 'https://drayzu.github.io/Atlas/';
 const BRANCH = 'gh-pages';
 const distDir = join(process.cwd(), 'dist');
 

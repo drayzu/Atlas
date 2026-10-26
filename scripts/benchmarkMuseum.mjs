@@ -22,7 +22,7 @@ try {
     await cdp.send('Performance.enable');
     const metrics = async () => Object.fromEntries((await cdp.send('Performance.getMetrics')).metrics.map(m => [m.name, m.value]));
     for (const scene of ['hero', 'gallery', 'reader']) {
-      const base = 'http://127.0.0.1:5197/AstroIngenieria/';
+      const base = 'http://127.0.0.1:5197/Atlas/';
       await page.goto(base + (scene === 'reader' ? '#obra-oneill-cylinder' : ''), { waitUntil: 'networkidle' });
       if (scene === 'gallery') await page.locator('#sala-habitats').scrollIntoViewIfNeeded();
       if (scene === 'reader') await page.locator('#article-oneill-cylinder-title').waitFor({ state: 'visible' });

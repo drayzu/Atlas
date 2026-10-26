@@ -3,7 +3,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { chromium, expect } from '@playwright/test';
 
-const base = process.env.ARTICLE_TEST_URL ?? 'http://127.0.0.1:5173/AstroIngenieria/';
+const base = process.env.ARTICLE_TEST_URL ?? 'http://127.0.0.1:5173/Atlas/';
 const browser = await chromium.launch({ headless: true });
 const errors = [];
 try {
@@ -11,7 +11,7 @@ try {
   page.on('pageerror', error => errors.push(error.message));
   await page.goto(`${base}#obra-mars-terraforming`);
   const ids = await page.evaluate(async () => {
-    const { allConcepts } = await import('/AstroIngenieria/src/data/astroData.ts');
+    const { allConcepts } = await import('/Atlas/src/data/astroData.ts');
     return allConcepts.map(item => item.id);
   });
   for (const id of ids) {
@@ -376,7 +376,7 @@ try {
 
   const imageTopics = ['astroingenieria', 'kardashev', 'artificial-gravity', 'iss', 'bernal-sphere', 'oneill-cylinder', 'worldship', 'life-support'];
   const selectedImages = await page.evaluate(async () => {
-    const { selectedStudyImages } = await import('/AstroIngenieria/src/data/selectedStudyImages.ts');
+    const { selectedStudyImages } = await import('/Atlas/src/data/selectedStudyImages.ts');
     return selectedStudyImages;
   });
   for (const id of imageTopics) {

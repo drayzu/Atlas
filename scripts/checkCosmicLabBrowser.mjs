@@ -23,7 +23,7 @@ try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  await page.goto(`http://127.0.0.1:${port}/AstroIngenieria/`, { waitUntil: 'networkidle' });
+  await page.goto(`http://127.0.0.1:${port}/Atlas/`, { waitUntil: 'networkidle' });
   await page.locator('.mo-root').waitFor();
   const panel = page.locator('[data-lab-ui]');
   assert.equal(await panel.count(), 0, 'No lab UI during normal browsing');
@@ -40,7 +40,7 @@ try {
   };
   const place = async (tool, x, y) => { await choose(tool); await page.mouse.click(x, y); };
   const newTools = await page.evaluate(async () => {
-    const { LAB_TOOLS } = await import('/AstroIngenieria/src/designs/museo-orbital/CosmicLab.ts');
+    const { LAB_TOOLS } = await import('/Atlas/src/designs/museo-orbital/CosmicLab.ts');
     return LAB_TOOLS.filter(t => t.fresh);
   });
   await panel.getByRole('button', { name: 'Favorito: Aurora viva', exact: true }).click();
@@ -147,7 +147,7 @@ try {
   assert.equal(await page.locator('.is-cosmic-lab').count(), 0);
   // Render the actual engine on both museum palette backgrounds, before/after gestures.
   const review = await page.evaluate(async () => {
-    const { CosmicLab, LAB_TOOLS } = await import('/AstroIngenieria/src/designs/museo-orbital/CosmicLab.ts');
+    const { CosmicLab, LAB_TOOLS } = await import('/Atlas/src/designs/museo-orbital/CosmicLab.ts');
     const artifacts = [];
     for (const category of ['Luz', 'Materia', 'Estrellas', 'Estructuras']) for (const background of ['#080d19', '#ded9cd']) {
       const canvas = document.createElement('canvas'); canvas.width = 1440; canvas.height = 840; const c = canvas.getContext('2d');

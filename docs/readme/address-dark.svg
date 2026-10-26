@@ -21,7 +21,7 @@
 <rect x="10" y="17" width="740" height="76" rx="38" fill="none" stroke="#e3ccaa" stroke-opacity=".38"/>
 <g transform="translate(52,55)"><path class="sp" filter="url(#glow)" d="M0,-9 L1.9,-1.9 L9,0 L1.9,1.9 L0,9 L-1.9,1.9 L-9,0 L-1.9,-1.9 Z" fill="#e3ccaa"/></g>
 <text x="80" y="64" font-family="Cormorant Garamond,serif" font-weight="500" font-size="29" letter-spacing=".4">
-<tspan fill="#9d968a">drayzu.github.io/</tspan><tspan fill="#e3ccaa">AstroIngenieria</tspan></text>
+<tspan fill="#9d968a">drayzu.github.io/</tspan><tspan fill="#e3ccaa">Atlas</tspan></text>
 <ellipse class="h" cx="630" cy="55" rx="120" ry="40" fill="url(#halo)"/>
 <g class="k">
 <rect x="544" y="31" width="172" height="48" rx="24" fill="url(#key)"/>

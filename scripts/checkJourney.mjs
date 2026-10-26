@@ -54,7 +54,7 @@ try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'reduce' });
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  const base = 'http://127.0.0.1:5186/AstroIngenieria/';
+  const base = 'http://127.0.0.1:5186/Atlas/';
   const titleFor = id => '#article-' + id + '-title';
   const headerPrevious = page.locator('.mo-studio-nav button').first();
   const headerNext = page.locator('.mo-studio-nav button').last();
