@@ -1,7 +1,8 @@
 """The README's opening clip, sharper: the flight through a nebula to the birth of a star and the museum
-opening, from the original recording (1260 x 540 at 60 fps, kept in Astroingenieria-readme-archive).
+opening, from a recording of the site (1260 x 540 CSS at 2x and 60 fps, kept in Astroingenieria-readme-archive;
+recorded frame by frame on Chrome's virtual clock, after the rename to Atlas).
 
-    python tools/readme-clips/hero.py  ->  docs/readme/clips/hero-v6-<theme>.avif / .webp
+    python tools/readme-clips/hero.py  ->  docs/readme/clips/hero-v7-<theme>.avif / .webp
 
 Drawn at 1840 px wide at 30 fps (AVIF), with a lighter WebP (920 px, 15 fps) for browsers without AVIF.
 Dark: blended into GitHub's page; light: a rounded card. It loops forwards with a short crossfade.
@@ -12,7 +13,7 @@ from PIL import Image, ImageDraw
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
-SRC = r'E:/Proyectos/ChatGPT/Astroingenieria-readme-archive/docs-readme-intros/intro-principal.mp4'
+SRC = r'E:/Proyectos/ChatGPT/Astroingenieria-readme-archive/docs-readme-intros/intro-atlas.mp4'
 OUT = os.path.join(ROOT, 'docs', 'readme', 'clips')
 SW, SH = 1260, 540
 PW = 1840
@@ -53,7 +54,7 @@ def main():
     for theme, page in THEMES.items():
         pg = np.array(page, np.float32) / 255
         al = (mask if theme == 'dark' else rounded)[..., None]
-        dst = os.path.join(OUT, f'hero-v6-{theme}')
+        dst = os.path.join(OUT, f'hero-v7-{theme}')
         enc = subprocess.Popen(
             ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{PW}x{PH}', '-r', str(FPS), '-i', '-',
              '-vf', 'scale=out_color_matrix=bt709:out_range=tv,format=yuv420p',
@@ -69,7 +70,7 @@ def main():
         enc.stdin.close()
         enc.wait()
         webp[0].save(dst + '.webp', save_all=True, append_images=webp[1:], duration=2000 // FPS, loop=0, quality=WEBP_Q, method=4)
-        print(f'  hero-v6-{theme}: {len(seq)} frames {PW}x{PH}  avif {os.path.getsize(dst + ".avif") / 1e6:.2f} MB'
+        print(f'  hero-v7-{theme}: {len(seq)} frames {PW}x{PH}  avif {os.path.getsize(dst + ".avif") / 1e6:.2f} MB'
               f'  webp {os.path.getsize(dst + ".webp") / 1e6:.2f} MB', flush=True)
 
 if __name__ == '__main__':
