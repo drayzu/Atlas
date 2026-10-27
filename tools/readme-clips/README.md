@@ -1,4 +1,4 @@
-# README opening clip
+# README clips
 
 Capture the site's actual opening with hardware WebGL, then encode the dark
 and light README variants. Requires the project dependencies, Playwright's
@@ -25,3 +25,29 @@ WebP files. Both themes use a short fade through black at the loop boundary,
 without overlapping the title and the opening nebula. Versioned output names
 also prevent readers from receiving the previous clip from an image cache.
 WebP uses independent frames to avoid trails from lossy delta-frame blending.
+
+## Chapter cards
+
+The chapter recorder mounts the site's current `JourneyOverlay` components
+in an isolated capture page. It records each camera passage at 60 fps without
+UI controls, keeping the existing card layout, chapter captions and fonts.
+
+```powershell
+node tools/readme-clips/capture-chapters.mjs tmp/readme-chapters
+python tools/readme-clips/chapters.py tmp/readme-chapters
+```
+
+Use `--probe` on the recorder to inspect five camera positions per chapter.
+Chapter names after the output folder select a subset. The encoder accepts
+the same names after its source folder, and `--preview-dir <folder>` saves MP4
+previews as well. `--avif-only` retunes AVIF files while retaining existing
+WebP outputs.
+
+Each five-second passage eases into its turnarounds and plays forward and
+back as a continuous ten-second loop. The caption stays still. AVIF cards
+are 1280 × 440 at 60 fps; the WebP fallback is 960 × 330 at 30 fps, with
+independent frames to prevent trails. This limits the decoding cost while
+retaining four times the original AVIF frame rate.
+
+The former `sharpen.py` pipeline is retained for reproducing the older v4
+cards; it starts from their 15 fps sources and cannot restore smooth motion.
