@@ -19,10 +19,13 @@ ROOT = Path(__file__).resolve().parents[2]
 FONTS = Path(__file__).resolve().parent / 'fonts'
 W, H, Z = 1280, 440, 1280 / 960
 SW, SH, FRAMES, FPS = 800, 320, 600, 60
+SCENE_BLACK = (4, 6, 11)
 THEMES = {
     'light': ((255, 255, 255), (126, 106, 68), (36, 31, 22), (88, 85, 79)),
     'dark': ((13, 17, 23), (198, 187, 163), (232, 223, 205), (189, 189, 185)),
 }
+DARK_LUT = [round(base + max(0, value - black) * (255 - base) / (255 - black))
+            for base, black in zip(THEMES['dark'][0], SCENE_BLACK) for value in range(256)]
 CLIPS = [
     ('intro', True, ['Introduction'], ['Engineering, seen as a', 'landscape.']),
     ('habitats', False, ['Space habitats'], ['Homes that spin to make', 'their own gravity.']),
@@ -73,8 +76,18 @@ def scene_mask(theme):
         return image.resize((SW, SH), Image.Resampling.LANCZOS)
     u = np.abs(np.linspace(-1, 1, SW))[None, :]
     v = np.abs(np.linspace(-1, 1, SH))[:, None]
-    t = np.clip(((u ** 4 + v ** 4) ** 0.25 - 0.65) / 0.35, 0, 1)
+    # Recover the prior cards' edge profile, fitted against their light/dark pairs.
+    t = np.clip(((u ** 6 + v ** 6) ** (1 / 6) - 0.80) / 0.20, 0, 1)
     return Image.fromarray(np.round(255 * (1 - t * t * (3 - 2 * t))).astype(np.uint8))
+
+
+def scene_palette(image, theme):
+    if theme != 'dark':
+        return image
+    # The earlier dark cards screen-blended their scenes over GitHub's page.
+    # Normalize the live renderer's blue-black first, so its empty sky maps
+    # to the page rather than leaving a darker (or lifted blue) rectangle.
+    return image.point(DARK_LUT)
 
 
 def decoder(source):
@@ -107,6 +120,8 @@ def main():
     parser.add_argument('--output', type=Path, default=ROOT / 'docs/readme/clips')
     parser.add_argument('--preview-dir', type=Path)
     parser.add_argument('--avif-only', action='store_true')
+    parser.add_argument('--version', default='v6')
+    parser.add_argument('--theme', choices=['dark', 'light', 'both'], default='both')
     args = parser.parse_args()
     capture = json.loads((args.source / 'capture.json').read_text(encoding='utf-8'))
     assert capture['fps'] == FPS and capture['frames'] == 301 and not capture['errors']
@@ -118,10 +133,12 @@ def main():
             continue
         assert name in capture['names']
         for theme in ('dark', 'light'):
+            if args.theme != 'both' and theme != args.theme:
+                continue
             base = base_image(number, right, titles, lines, theme)
             mask = scene_mask(theme)
             box = (0 if right else W - SW, (H - SH) // 2)
-            stem = args.output / f'{name}-v5-{theme}'
+            stem = args.output / f'{name}-{args.version}-{theme}'
             with (args.source / f'{name}-{theme}-encode.log').open('wb') as log:
                 source = decoder(args.source / f'{name}.mp4')
                 crf = 38 if name == 'planetary' else 36
@@ -135,7 +152,8 @@ def main():
                         if len(data) != SW * SH * 3:
                             raise RuntimeError(f'{name}: incomplete source at frame {index}')
                         frame = base.copy()
-                        frame.paste(Image.frombytes('RGB', (SW, SH), data), box, mask)
+                        panel = scene_palette(Image.frombytes('RGB', (SW, SH), data), theme)
+                        frame.paste(panel, box, mask)
                         raw = frame.tobytes()
                         for process in processes:
                             process.stdin.write(raw)

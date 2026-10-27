@@ -49,5 +49,14 @@ are 1280 × 440 at 60 fps; the WebP fallback is 960 × 330 at 30 fps, with
 independent frames to prevent trails. This limits the decoding cost while
 retaining four times the original AVIF frame rate.
 
+Dark cards retain the older cards' color treatment: normalize the renderer's
+blue-black sky, then screen-blend the scene over GitHub Dark's `#0d1117`.
+The recovered edge feather uses a sixth-power superellipse with an 80%
+opaque center. This treats the scene's empty sky as part of the page, rather
+than hiding a darker rectangle with a vignette. Bright highlights stay bright.
+Use `--theme dark` to regenerate only these cards; light cards keep their
+white page and rounded-window treatment. `--version` controls cache-busting
+output names (currently v6).
+
 The former `sharpen.py` pipeline is retained for reproducing the older v4
 cards; it starts from their 15 fps sources and cannot restore smooth motion.
