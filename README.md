@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://drayzu.github.io/Atlas/"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/hero-v7-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v7-dark.webp"><source type="image/avif" srcset="docs/readme/clips/hero-v7-light.avif"><img src="docs/readme/clips/hero-v7-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture></a>
+  <a href="https://drayzu.github.io/Atlas/"><picture><source media="(prefers-color-scheme: dark)" type="image/avif" srcset="docs/readme/clips/hero-v8-dark.avif"><source media="(prefers-color-scheme: dark)" srcset="docs/readme/clips/hero-v8-dark.webp"><source type="image/avif" srcset="docs/readme/clips/hero-v8-light.avif"><img src="docs/readme/clips/hero-v8-light.webp" width="100%" alt="A flight through a nebula to the birth of a star, and the museum opening"></picture></a>
 </p>
 
 <p align="center">
